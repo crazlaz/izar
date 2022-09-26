@@ -7,8 +7,8 @@ const Home: NextPage = () => {
     <div className='bg-black'>
 
 <div className='animate-bounce pt-12 flex flex-row'>
-  <Image src="/moon.png" width="200" height="200" />
-  <Image src="/sun.png" width="250" height="250" />
+  <Image src="/sun.png" width="200" height="200" />
+  <Image src="/space.png" width="250" height="250" />
 </div>
 
     <div className="flex flex-col items-center justify-center  bg-black text-white">
@@ -41,7 +41,6 @@ const Home: NextPage = () => {
       </main>
 </div>
 <div className='animate-bounce pt-12 flex flex-row'>
-  <Image src="/space.png" width="200" height="200" />
   <Image src="/star.png" width="250" height="250" />
 </div>
 <Book />
