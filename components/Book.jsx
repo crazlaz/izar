@@ -1,6 +1,6 @@
   export default function Example() {
     return (
-      <div class="container drop-shadow-xl content-center px-5 py-12 ">
+      <div class="container drop-shadow-xl content-center px-5 py-12 bg-black">
   
   
   
@@ -29,7 +29,7 @@
               maxlength="64"
               class="text-blueGray-500 text-base font-black leading-7"
             >
-             First Name:
+            Name:
               <br />
               <input
                 placeholder="Full Name"
@@ -43,150 +43,32 @@
             </label>
           </div>
   
-          <div class="relative pt-4">
-            <label
-              htmlFor="name"
-              class=" text-blueGray-500 text-base font-black leading-7"
-            >
-              Phone:
-            </label>
-            <input
-              type="number"
-              minlength="3" 
-              maxlength="64"
-              id="number"
-              name="number"
-              placeholder="number"
-              class="focus:border-blueGray-500 focus:shadow-outline mt-2 mr-4 w-full transform rounded-lg bg-wood px-4 py-2 text-base text-black ring-offset-2 ring-offset-current transition duration-500 ease-in-out focus:bg-wood focus:outline-none focus:ring-2"
-            />
-          </div>
-  
-          <div class="relative pt-4">
-            <label
-              htmlFor="e-mail"
-              class="text-blueGray-500 text-base font-black leading-7"
-            >
-              E-Mail:
-            </label>
-            <input
-              type="text"
-              id="e-mail"
-              minlength="3"
-              maxlength="64"
-              name="e-mail"
-              placeholder="E-Mail"
-              class="font-blackfocus:border-blueGray-500 focus:shadow-outline mt-2 mr-4 w-full transform rounded-lg bg-wood px-4 py-2 text-base text-black ring-offset-2 ring-offset-current transition duration-500 ease-in-out  focus:outline-none focus:ring-2"
-            />
-          </div>
-  
-          <div class="relative pt-4">
-            <label
-              htmlFor="name"
-              class="text-blueGray-500 text-base font-black leading-7"
-            >
-              Date:
-            </label>
-            <input
-              type="date"
-              id="date"
-              name="date"
-              placeholder="name"
-              class="focus:border-blueGray-500 focus:shadow-outline mt-2 mr-4 w-full transform rounded-lg bg-wood px-4 py-2 text-base text-black ring-offset-2 ring-offset-current transition duration-500 ease-in-out focus:bg-wood focus:outline-none focus:ring-2"
-            />
-          </div>
 
-          <div class="relative pt-4">
-            <label
-              htmlFor="time"
-              class="text-blueGray-500 text-base font-black leading-7"
-            >
-              Time:
-            </label>
-            <input
-              type="time"
-              id="time"
-              name="time"
-              placeholder="time"
-              class="focus:border-blueGray-500 focus:shadow-outline mt-2 mr-4 w-full transform rounded-lg bg-wood px-4 py-2 text-base text-black ring-offset-2 ring-offset-current transition duration-500 ease-in-out focus:bg-wood focus:outline-none focus:ring-2"
-            />
-          </div>
+
 
 
 
           <div class="inline-block relative pt-6 pb-6 w-64">
-          <label class='font-black' htmlFor="lashes">Lash Services</label>
+          <label class='font-bold text-red' htmlFor="lashes">Will you join our blast off?</label>
           <select type="lashes" htmlFor="lashes" id="lashes" name="lashes" class="block appearance-none w-full bg-wood border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
-    <option type="lashes" htmlFor="lashes" id="lashes" name="lashes">Not this time!</option>
-    <option type="lashes" htmlFor="lashes" id="lashes" name="lashes">Classic Set - $120</option> 
-    <option type="lashes" htmlFor="lashes" id="lashes" name="lashes">Hybrid Set - $135</option>
-    <option type="lashes" htmlFor="lashes" id="lashes" name="lashes">Volume Set - $145</option>
-    <option type="lashes" htmlFor="lashes" id="lashes" name="lashes">Fill In - $60 two weeks</option>
-    <option type="lashes" htmlFor="lashes" id="lashes" name="lashes">Fill In - $70 three weeks</option>
-    <option type="lashes" htmlFor="lashes" id="lashes" name="lashes">Lash Lift - $80</option> 
+    <option type="lashes" htmlFor="lashes" id="lashes" name="lashes">I'll be there (: </option>
+    <option type="lashes" htmlFor="lashes" id="lashes" name="lashes">Cant make it!</option> 
+    <option type="lashes" htmlFor="lashes" id="lashes" name="lashes">Will Try!</option> 
+    
   </select>
   <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
     <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
   </div>
 </div>
-
-
-
-
-
-
-          <div class="inline-block relative pt-6 pb-6 w-64">
-          <label class='font-black' type="waxing" htmlFor="waxing" id="waxing" name="waxing">Waxing Services</label>
-          <select type="waxing" htmlFor="waxing" id="waxing" name="waxing" class="block appearance-none w-full bg-wood border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
-    <option type="waxing" htmlFor="waxing" id="waxing" name="waxing">Not this time!</option>
-    <option type="waxing" htmlFor="waxing" id="waxing" name="waxing">Bikini Wax - $45</option>
-    <option type="waxing" htmlFor="waxing" id="waxing" name="waxing">Brazilian Wax - $65</option> 
-  </select>
-  <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
-  </div>
+      
+      <div class="flex items-center mb-4">
+    <input id="default-radio-1" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+    <label for="default-radio-1" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Default radio</label>
+    </div>
+<div class="flex items-center">
+    <input checked id="default-radio-2" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+    <label for="default-radio-2" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Checked state</label>
 </div>
-
-
-
-
-<div class="inline-block relative pt-6 pb-6 w-64">
-          <label class='font-black' htmlFor="extra">Extras</label>
-          <select type="extra" htmlFor="extra" id="extra" name="extra" class="block appearance-none w-full bg-wood border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
-    <option type="extra" htmlFor="extra" id="extra" name="extra">Not this time!</option>
-    <option type="extra" htmlFor="extra" id="extra" name="extra">Colors $10</option> 
-    <option type="extra" htmlFor="extra" id="extra" name="extra">Wispy $15</option>
-    <option type="extra" htmlFor="extra" id="extra" name="extra">Lash Removal $20</option>
-    <option type="extra" htmlFor="extra" id="extra" name="extra">Lash Lift Tint $10</option>
-  </select>
-  <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-  
-
-  <div>
-        <textarea
-          name="comments"
-          class="text-blueGray-500 focus:shadow-outline apearance-none autoexpand mt-2 h-32 w-full transform rounded-lg border bg-wood px-4 py-2 text-base ring-offset-2 ring-offset-current transition duration-500 ease-in-out focus:border-blue-500 focus:outline-none focus:ring-2"
-          id="description"
-        
-          maxlength="2000"
-          type="text"
-          placeholder="Message..."
-          required=""
-        ></textarea>
-      </div>      
-
 
       
       <div class="mb-4 flex w-full items-center pt-4">
@@ -196,16 +78,10 @@
           class="focus:shadow-outline w-full transform rounded-md border-indigo-600 bg-wood py-3 text-base text-black ring-offset-2 ring-offset-current transition duration-500 ease-in-out hover:bg-blue-800 focus:outline-none focus:ring-2 "
         >
           {' '}
-          Confirm Appointment!
+          Confirm!
         </button>
 
 </div>
-<div>
-<h7 class="text-sm">
-   <b> please note:</b> by confirming you agree to <a href="/terms"  class="underline">terms and conditions.</a>
-  </h7>
-</div>
-
 </form>
 <div class="text-center">
 
