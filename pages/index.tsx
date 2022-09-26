@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-
+import Book from '../components/Book'
 const Home: NextPage = () => {
   return (
     <div className='bg-black'>
@@ -18,7 +18,7 @@ const Home: NextPage = () => {
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center bg-black">
         <h1 className="text-3xl font-bold pb-4">
-          We Invite You To{' '}
+          We Invite You To Celebrate{' '}
           
         </h1>
 
@@ -40,6 +40,7 @@ const Home: NextPage = () => {
        
       </main>
 </div>
+<Book />
 </div>
   )
 }
