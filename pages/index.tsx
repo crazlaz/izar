@@ -50,7 +50,7 @@ const Home: NextPage = () => {
       </main>
 </div>
 <div className='pt-12 flex flex-row'>
-  <Image src="/izar.png" width="250" height="250" />
+  <Image src="/izarr.png" width="250" height="250" />
 </div>
 <Book />
 </div>
