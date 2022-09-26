@@ -19,8 +19,13 @@ const Home: NextPage = () => {
 
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center bg-black">
+      <h1 className="text-3xl font-bold pb-4 italic text-yellow-300">
+         One Year Around The Sun!
+          
+        </h1>
+      
         <h1 className="text-3xl font-bold pb-4 italic">
-          We Invite You To Celebrate{' '}
+        Join us to Celebrate{' '}
           
         </h1>
 
@@ -40,8 +45,8 @@ const Home: NextPage = () => {
        
       </main>
 </div>
-<div className='animate-bounce pt-12 flex flex-row'>
-  <Image src="/star.png" width="250" height="250" />
+<div className='pt-12 flex flex-row'>
+  <Image src="/izar.png" width="250" height="250" />
 </div>
 <Book />
 </div>
