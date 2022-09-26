@@ -6,6 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      adc: ["Kalam", "cursive"],
+      carlos: ["Permanent Marker"]
+    }
   },
   plugins: [],
 }

@@ -7,7 +7,7 @@
       <div class="container items-center px-5 py-12  bg-backlol lg:px-20">
       
         <form
-          class="mx-auto my-6 mb-4 flex w-full transform flex-col  bg-backlol p-10 px-8 pt-6 transition duration-500 ease-in-out lg:w-1/2 "
+          class="mx-auto my-6 mb-4 flex w-full transform flex-col  p-10 px-8 pt-6 transition duration-500 ease-in-out lg:w-1/2 "
           name="contact v2"
           method="post"
           data-netlify="true"
@@ -22,7 +22,7 @@
             <input name="bot-field" />
           </div>
           <div className="pt-12">
-<a className="text-yellow-300 font-bold text-2xl pb-12">Will you be joining Izar's space adventure?</a>
+<a className="text-yellow-300 font-bold text-2xl pb-12 font-carlos">Will you be joining Izar's space adventure?</a>
 </div>
           <div class="relative pt-4">
             <label
