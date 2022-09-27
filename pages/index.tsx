@@ -20,12 +20,12 @@ const Home: NextPage = () => {
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center bg-black">
       <h1 className="text-3xl font-bold pb-4 italic text-yellow-300 font-carlos">
-         One Year Around The Sun!
+         First Trip Around The Sun!
           
         </h1>
       
         <h1 className="text-3xl font-bold pb-4 italic font-adc">
-        Join us to Celebrate{' '}
+        Come Celebrate{' '}
           
         </h1>
 
@@ -51,6 +51,7 @@ const Home: NextPage = () => {
 </div>
 <div className='pt-12 flex flex-row'>
   <Image src="/izarr.png" width="250" height="250" />
+  <Image src="/ring.png" width="250" height="250" />
 </div>
 <Book />
 </div>
