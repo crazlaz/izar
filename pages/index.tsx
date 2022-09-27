@@ -25,12 +25,12 @@ const Home: NextPage = () => {
         </h1>
       
         <h1 className="text-3xl font-bold pb-4 italic font-adc">
-        Come Celebrate{' '}
+        We Invite You To Celebrate{' '}
           
         </h1>
 
         <a className="text-blue-600  animate-pulse text-4xl font-adc font-bold pt-3">
-            Izar's One Year Around The Sun!
+            Izar's First Birthday With Us
           </a>
 
           <a className="text-yellow-300  animate-pulse text-1xl font-adc font-bold pt-3">
