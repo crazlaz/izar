@@ -13,7 +13,7 @@ const Home: NextPage = () => {
 
     <div className="flex flex-col items-center justify-center  bg-black text-white">
       <Head>
-        <title>Izar One Year Bash!</title>
+        <title>You're Invited Izar's First Birthday</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
